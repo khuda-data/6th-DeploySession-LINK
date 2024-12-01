@@ -1,0 +1,78 @@
+body {
+  width: 300px;
+  height: 400px;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#link-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#thumbnail {
+  width: 100%;
+  height: auto;
+  max-height: 100px; /* 이미지 크기 제한 */
+  object-fit: cover; /* 이미지를 잘라서 크기에 맞추기 */
+  margin-bottom: 10px;
+}
+
+#title {
+  font-size: 16px;
+  color: #ffeb3b;
+  margin: 5px 0;
+}
+
+#description {
+  font-size: 14px;
+  color: #fff;
+  margin: 5px 0;
+}
+
+#keywords {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.keyword-button {
+  background-color: #ffeb3b;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+button {
+  width: 45%;
+  padding: 10px;
+  background-color: #ffeb3b;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ffe500;
+}
